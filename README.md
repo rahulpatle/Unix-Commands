@@ -13,6 +13,8 @@ These directories are further organized into a tree-like structure called the fi
   cd <directory name> -   to change directory.
   vi <filename.format> -  to create a file.
   cp <source filename> <destination filename> - copy file.
+  read name - to read any input from console.
+  echo <text> - to print text. 
     following are some useful commands for handling file.
     
     1. :w <Filename> -   writes the current Vim file to disk with name FILENAME.
@@ -33,6 +35,8 @@ These directories are further organized into a tree-like structure called the fi
     11. :<External command>! -    to execute external commands.
     12  :r !dir -   reads the output of the dir command and puts it below the
         cursor position.
+    13. ls -l - displays permission over the files.
+    14. chmod - assigning/adding/removing permission on files.
     
     grep commands (Globally Regular Expression Print out)
     
