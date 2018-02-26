@@ -1,31 +1,35 @@
 # Unix-Commands
 Learning Unix Commands
 
-Users communicate with the kernel through a program known as the shell. The shell is a command line interpreter.
-All the data of Unix is organized into files. All files are then organized into directories.
-These directories are further organized into a tree-like structure called the filesystem.
+- Users communicate with the kernel through a program known as the shell. The shell is a command line interpreter.
+- All the data of Unix is organized into files. All files are then organized into directories.
+- These directories are further organized into a tree-like structure called the filesystem.
+
+useful commands
+
   whoami - displays logged in username.
   who - displays the name,date,time of logged in user.
   w - associate the full information regarding logged in user
-
- 
   dir -   display the contents of the directory
   cd <directory name> -   to change directory.
   vi <filename.format> -  to create a file.
   cp <source filename> <destination filename> - copy file.
   read name - to read any input from console.
   echo <text> - to print text. 
-    following are some useful commands for handling file.
+
+following are some useful commands for handling file.
     
     1. :w <Filename> -   writes the current Vim file to disk with name FILENAME.
     2.  v -   to select the characters in file.
     3. :r <filename> -    retrieves disk file FILENAME and puts it below the cursor position.
     4. :s/<old character>/<new character> -   to substitute character for its first occurance.
     5. :s/<old character>/<new character>/g -   to substitute character globally by adding g at the last of the command .
-    6. %s/<old character>/<new character>/gc -  to find every occurrence in the whole file,with a prompt whether to substitute or not.
+    6. %s/<old character>/<new character>/gc -  to find every occurrence in the whole file,with a prompt whether to substitute
+                                                or not.
     7. CTRL+G -   displays your location in the file and the file status at the bottom then press following.
-          gg  moves to the first line.
-          G moves to last line
+          gg - moves to the first line.
+          G - moves to last line
+          
     8.  /  followed by a phrase searches FORWARD for the phrase.
         ?  followed by a phrase searches BACKWARD for the phrase.
            After a search type  n  to find the next occurrence in the same direction
