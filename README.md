@@ -59,4 +59,16 @@ following are some useful commands for handling file.
               -w : Match whole word
               -o : Print only the matched parts of a matching line.
 
+    Variables
+      PS1 and PS2 Variables
+            PS1="<value>" - put anything inside this variable.
+                            example - "[\u@\h\s]\$", "==>"
+            PS2="<values>"
+            
+      Enviornment Variable - start with $ sign 
+            $HOME     -  Display Home Directory   
+            $DISPLAY  -  Contains the identifier for the display that X11 programs should use by default.
+            $PATH     -  Displays the current path.
     
+File System Basics.
+  / - Root Directory
